@@ -1,5 +1,4 @@
 #!/bin/bash
-. ~/script/helper/isPackageInstalled.sh
 
 #param $1 is the run command
 #param $2 is the optional package name

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #param $1 is the run command to check
 isPackageInstalled(){
 	local command="$1"
