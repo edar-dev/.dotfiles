@@ -1,0 +1,80 @@
+# <p align="center">DOTFILES</p>
+
+## Contents
+
+- [Rice](#my-norjd-rice)
+- [Details](#details)
+- [How To Copy](#how-to-copy)
+- [Screenshots](#screenshots)
+
+## My Nord Rice
+
+It's time to share my Manjaro rice. It's a work in progress so stay updated.
+The idea is to create a base setup, with shared style and feature, but that will work on different architectures likes (x64 and ARM). In order to do that where will be probably multiple branches, one for each architecture, and maybe in the future for different distro.
+The base theme that I have chosen is inspired to [Nord theme](https://www.nordtheme.com/).
+
+## Details
+
+- **OS** : [Manjaro](https://manjaro.org/)
+- **WM** : [I3](https://i3wm.org/)
+- **BAR** : [TBD]()
+- **TERMINAL** : [Alacritty](https://github.com/alacritty/alacritty)
+- **SHELL** : [Zsh](https://www.zsh.org/)
+  - **Plugins** :
+    - [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
+    - [Zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+    - [Zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+    - [Zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
+    - [FZF](https://github.com/junegunn/fzf)
+- **EDITOR** : [Neovim](https://github.com/neovim/neovim)
+  - **Plugins** :
+    - [arcticicestudio/nord-vim](https://github.com/arcticicestudio/nord-vim)
+    - [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) 
+    - [junegunn/fzf]()
+    - [junegunn/fzf.vim]()
+    - [antoinemadec/coc-fzf]()
+    - [stsewd/fzf-checkout.vim]()
+    - [tpope/vim-fugitive]()
+    - [tpope/vim-rhubarb]()
+    - [junegunn/gv.vim]()
+    - [rhysd/git-messenger.vim]()
+    - [mhinz/vim-startify]()
+    - [liuchengxu/vim-which-key]()
+    - [ryanoasis/vim-devicons]()
+    - [frazrepo/vim-rainbow]()
+    - [Yggdroot/indentLine]()
+    - [voldikss/vim-floaterm]()
+    - [alvan/vim-closetag]()
+    - [cohama/lexima.vim]()
+    - [machakann/vim-sandwich]()
+    - [tpope/vim-commentary]()
+    - [AndrewRadev/tagalong.vim]()
+    - [liuchengxu/vista.vim]()
+    - [turbio/bracey.vim]()
+    - [rhysd/conflict-marker.vim]()
+    - [agarrharr/consolation-vim]()
+    - [mattn/emmet-vim]()
+    - [mbbill/undotree]()
+    - [airblade/vim-rooter]()
+    - [justinmk/vim-sneak]()
+    - [dstein64/vim-startuptime]()
+    - [sheerun/vim-polyglot]()
+    - [iamcco/markdown-preview.nvi]()
+    - [norcalli/nvim-colorizer.lua]()
+- **MUSIC PLAYER** : Spotify (with [Spicetify](https://github.com/khanhas/spicetify-cli) and [Dribbblish Nord Dark Theme](https://github.com/morpheusthewhite/spicetify-themes/wiki/Themes-preview#nord-dark) from [spicetify-themes](https://github.com/morpheusthewhite/spicetify-themes))
+- **BROWSER** : Firefox ([userChrome](https://github.com/mut-ex/minimal-functional-fox)-with some modification,[startpage](https://addons.mozilla.org/en-US/firefox/addon/nighttab/))
+- **SEARCH ENGINE** : DuckDuckGo (with custom color theme you can have the same by loading the setting, code - HashtagNord)
+- **FILE MANAGER** : [Ranger](https://github.com/ranger/ranger)
+- **NOTIFICATION** : [Dunst](https://github.com/dunst-project/dunst)
+- **COMPOSITOR** : [Picom-ibhagwan](https://github.com/ibhagwan/picom)
+- **GTK THEME** : [Nordic](https://www.gnome-look.org/p/1267246/)
+- **ICONS** : [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- **CURSOR** : [Volantes](https://store.kde.org/p/1356095/)
+- **VIDEO PLAYER** : [Mpv](https://github.com/mpv-player/mpv)
+- **SYSTEM MONITOR** : [Htop](https://htop.dev/downloads.html)
+- **SCREEN CAPTURE** : [Scrot](https://github.com/resurrecting-open-source-projects/scrot)
+- **IMAGE VIEWER** : [Feh](https://github.com/derf/feh)
+- **DOCUMENT VIEWER** : [Zathura](https://github.com/pwmt/zathura)
+- **APP LAUNCHER** : [Rofi](https://github.com/davatorium/rofi)
+- **DISPLAY MANAGER** : [LightDM](https://github.com/canonical/lightdm) ([with Litarvan theme](https://github.com/Litarvan/lightdm-webkit-theme-litarvan))
+- **LOCK SCREEN** : [Betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)
