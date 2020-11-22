@@ -2,7 +2,7 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
 # Set mod key (Mod1=<Alt>, Mod4=<Super>)
-set $mod Mod1
+set $mod Mod4
 
 # Set terminal 
 set $terminal alacritty
@@ -59,7 +59,7 @@ bindsym $mod+Ctrl+m exec $terminal -e 'alsamixer'
 
 # Start Applications
 bindsym $mod+Ctrl+b exec $terminal -e 'bmenu'
-bindsym $mod+F2 exec palemoon
+bindsym $mod+F2 exec firefox
 bindsym $mod+F3 exec pcmanfm
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
