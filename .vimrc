@@ -1,5 +1,3 @@
-
-
 "        _                    
 " __   _(_)_ __ ___  _ __ ___ 
 " \ \ / / | '_ ` _ \| '__/ __|
@@ -10,7 +8,8 @@
 source ~/.config/nvim/plug-config/startify.vim
 source ~/.config/nvim/plug-config/coc.vim
 source ~/.config/nvim/plug-config/fzf.vim
-
+source ~/.config/nvim/plug-config/markdown-preview.vim
+source ~/.config/nvim/plug-config/vim-polyglot.vim
 
 "************************************************************
 ""{{{ Plugin
