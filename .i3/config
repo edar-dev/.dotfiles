@@ -231,7 +231,7 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 # Set shut down, restart and locking features
 bindsym $mod+0 mode "$mode_system"
-set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shifr+r)esolution, (Shift+s)hutdown
 mode "$mode_system" {
     bindsym l exec --no-startup-id i3exit lock, mode "default"
     bindsym s exec --no-startup-id i3exit suspend, mode "default"
@@ -239,7 +239,18 @@ mode "$mode_system" {
     bindsym e exec --no-startup-id i3exit logout, mode "default"
     bindsym h exec --no-startup-id i3exit hibernate, mode "default"
     bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+r mode "$mode_resolution"
     bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+set $mode_resolution (n)ative, (h)uman_readable
+mode "$mode_resolution" {
+    bindsym n exec --no-startup-id xrandr --output eDP-1 --primary --mode 2880x1800 --pos 0x0 --rotate normal, mode "default"
+    bindsym h exec --no-startup-id xrandr --output eDP-1 --primary --mode 1920x1200 --pos 0x0 --rotate normal, mode "default"
 
     # exit system mode: "Enter" or "Escape"
     bindsym Return mode "default"
@@ -348,6 +359,7 @@ bar {
         urgent_workspace   #16a085 #FDF6E3 #E5201D
     }
 }
+
 
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
